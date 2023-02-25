@@ -5,6 +5,7 @@
 	border: 0;
 	text-decoration: none;
 	font-family: 'Roboto', sans-serif;
+	scroll-padding-top: 105px;
 }
 
 header {
@@ -75,6 +76,7 @@ nav a:hover:after {
 .about {
 	padding: 105px;
 	text-align: center;
+	scroll-padding-top: 105px;
 }
 
 .pros {
