@@ -9,7 +9,7 @@
 
 header {
 	background: #eeeff1;
-	height: 100vh;
+	height: 85vh;
 }
 
 nav {
@@ -48,7 +48,8 @@ nav a:hover:after {
 }
 
 .header__content {
-	padding-top: 100px;
+	/*padding-top: 100px;*/
+	height: 80vh;
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-evenly;
