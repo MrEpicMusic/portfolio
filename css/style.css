@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+}
+
+header {
+	background: #eeeff1;
+	height: 85vh;
+}
+
+nav {
+	background: #eeeff1;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 35px 0;
+	font-size: 16px;
+	line-height: 26px;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 0.1em;
+	position: -webkit-sticky;
+  	position: sticky;
+  	top: 0;
+  	left: 0;
+  	right: 0;
+  	z-index: 9999;
+}
+
+nav a {
+	color: #000;
+	padding: 0 20px;
+}
+nav a:hover {
+/*	font-weight: 500;*/
+	color: #34547a;
+}
+nav a:hover:after {
+	content: "";
+	border-bottom: 5px solid #34547a;
+	width: 300px;
+	height: 5px;
+	margin-top: 10px;
+}
+
+.header__content {
+	padding-top: 150px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-evenly;
+	max-width: 1000px;
+	align-items: center;
+}
+
+.header__content_body {
+	margin-left: 130px;
+}
+
+.header__content_body p {
+	font-size: 16px;
+	line-height: 26px;
+	color: #727272;
+}
+.header__content_body h1 {
+	font-size: 48px;
+	line-height: 79px;
+	font-weight: 500;
+}
+
+.about {
+	padding: 105px;
+	text-align: center;
+}
+
+.pros {
+	background: #34547a;
+	padding: 100px;
+	display: flex;
+	justify-content: space-evenly;
+	color: #fff;
+}
+.pros h3 {
+	font-weight: 500;
+	font-size: 21px;
+	line-height: 24px;
+}
+.pros img {
+	width: 50px;
+	height: 50px;
+	color: #fff;
+}
+
+.pros__item {
+	display: flex;
+	align-items: center;
+}
+
+.pros__item_body {
+	margin-left: 20px;
+	display: flex;
+	flex-direction: column;
+}
+.pros__item_body p {
+	color: #fff;
+	font-size: 16px;
+	line-height: 26px;
+	margin-top: 10px;
+}
+
+.skills {
+	height: 650px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.skills__body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.skills__body p {
+	margin: 50px 0 0 0;
+}
+
+.skills__img img {
+	width: 555px;
+	height: 450px;
+}
+
+.bar_empty {
+	width: 445px;
+	height: 4px;
+	background: #c4c4c4;
+	margin-top: 20px;
+	position: relative;
+}
+
+.bar_fill {
+	position: absolute;
+	background: #34547a;
+	height: 4px;
+}
+.first {
+	width: 100%;
+}
+.second {
+	width: 90%;
+}
+.third {
+	width: 60%;
+}
+
+.process {
+	text-align: center;
+	background: #eeeff1;
+	padding: 100px 0;
+}
+
+.process__body {
+	display: flex;
+	max-width: 1100px;
+	margin: 0 auto;
+	align-items: center;
+}
+
+.process__body_image img {
+	width: 550px;
+	height: 450px;
+}
+
+.process__body_content {
+	margin-left: 40px;
+	text-align: left;
+}
+
+.works {
+	padding: 25px 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.works__item {
+	height: 480px;
+	width: 33.3%;
+	position: relative;
+}
+.works__item img {
+	height: 100%;
+	width: 100%;
+	transition: 0.4s;
+}
+
+.works__item img:hover {
+	filter: brightness(40%);
+}
+.works__item:hover:after {
+	content: "";
+	display: block;
+	width: 100px;
+	height: 100px;
+	background: url('../img/view.png');
+	position: absolute;
+	top: 40%;
+	left: 40%;
+}
+
+.order {
+	padding: 100px 0;
+	text-align: center;
+	background: #eeeff1;
+}
+
+.order__form {
+	margin-top: 65px;
+}
+
+footer {
+	background: #34547a;
+	padding: 50px 0;
+	color: #fff;
+}
+
+footer p {
+	color: #fff;
+	margin-top: 20px;
+}
+
+.footer__content {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+
+
+
+
+input[type=text],
+input[type=email] {
+	padding: 15px 20px;
+	margin: 0 15px;
+	width: 200px;
+}
+
+textarea {
+	width: 475px;
+	margin-top: 20px;
+	padding: 15px 20px;
+	resize: none;
+}
+
+h2 {
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 37px;
+}
+
+h3 {
+	font-size: 21px;
+	line-height: 25px;
+	font-weight: 500;
+}
+
+p {
+	font-size: 16px;
+	line-height: 26px;
+	color: #727272;
+	max-width: 540px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.btn {
+	background: #34547a;
+	padding: 25px 40px;
+	margin-top: 60px;
+	color: #fff;
+	display: inline-block;
+	transition: 0.4s;
+	border: 1px solid #34547a;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-size: 16px;
+	line-height: 26px;
+}
+.btn:hover {
+	background: #eeeff1;
+	color: #34547a;
+}
